@@ -17,11 +17,6 @@ The CNN model is composed of three convolutional blocks, each followed by ReLU a
 - **Classifier:**
   - Flatten → Dropout(0.1) → Dense(1024) → ReLU → Dense(512) → ReLU → Dropout(0.1) → Dense(10)
 
-#### How to Use:
-1. Clone the repository and navigate to the project directory.
-2. Install the required dependencies listed in `requirements.txt`.
-3. Run `train.py` to start training the model. You can adjust the number of epochs as needed.
-
 #### Results:
 - **Initial Training:** 87% accuracy after 30 epochs.
 - **Extended Training:** 90% accuracy after 100 epochs.
